@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  position: relative;
+  background-color: rgb(13, 9, 247);
+  border: 1px solid rgb(46, 7, 7);
+  height: 210px;
+  width: 80%;
+}
+
+#box {
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  background-color: rgb(214, 132, 24);
+  height: 78px;
+  width: 82px;
+}
+
+.vertical {
+  margin: 40px;
+  position: relative;
+  background-color: rgb(13, 9, 247);
+  border: 1px solid rgb(46, 7, 7);
+  height: 500px;
+  width: 200px;
+}
+#box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: rgb(214, 132, 24);
+  height: 75.7px;
+  width: 80px;
+}
